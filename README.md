@@ -38,6 +38,14 @@ EOF
 
 ```
 
+```
+For multiple DDNS entries, you can name them like:
+
+[Cloudflare IPv4 www1]...EOF
+[Cloudflare IPv4 www2]...EOF
+etc.
+```
+
 ## IP v6 (Optional)
 
 ```
@@ -60,6 +68,14 @@ cat >> /etc.defaults/ddns_provider.conf << 'EOF'
         website=https://www.cloudflare.com
 EOF
 
+```
+
+```
+For multiple DDNS entries, you can name them like:
+
+[Cloudflare IPv6 www1]...EOF
+[Cloudflare IPv6 www2]...EOF
+etc.
 ```
 
 ## Get Cloudflare parameters
