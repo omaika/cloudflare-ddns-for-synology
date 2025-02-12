@@ -38,6 +38,8 @@ EOF
 
 ```
 
+### Note
+
 ```
 For multiple DDNS entries, you can name them like:
 
@@ -69,6 +71,8 @@ cat >> /etc.defaults/ddns_provider.conf << 'EOF'
 EOF
 
 ```
+
+### Note
 
 ```
 For multiple DDNS entries, you can name them like:
