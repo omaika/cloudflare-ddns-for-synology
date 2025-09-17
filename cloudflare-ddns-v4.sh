@@ -14,7 +14,7 @@ hostnames="$3"
 ipAddr="$4"
 
 # Split hostnames by | delimiter
-IFS='|' read -ra HOSTNAME_ARRAY <<< "$hostnames"
+IFS='---' read -ra HOSTNAME_ARRAY <<< "$hostnames"
 
 #Fetch and filter IPv6, if Synology won't provide it
 if [[ $ipv6 = "true" ]]; then
